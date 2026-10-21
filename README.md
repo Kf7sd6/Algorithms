@@ -16,6 +16,7 @@
 | M01. Данные и массив | [Конспект](learn/topics/M01/README.md) | [Задачи](learn/topics/M01/practice.md) |
 | M02. Стоимость алгоритма и доказательства | [Конспект](learn/topics/M02/README.md) | [Задачи](learn/topics/M02/practice.md) |
 | M03. Стек, очередь и списки | [Конспект](learn/topics/M03/README.md) | [Задачи](learn/topics/M03/practice.md) |
+| M04. Линейный и двоичный поиск | [Конспект](learn/topics/M04/README.md) | [Задачи](learn/topics/M04/practice.md) |
 
 ## Где что находится
 
