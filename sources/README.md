@@ -34,6 +34,16 @@
 
 При выпуске M01 прочитаны S08 §1.2 Interfaces, §2 Array-Based Lists и §2.1 ArrayStack: базовые операции и механизм роста. Полное доказательство амортизации не требуется M01 и отнесено к M18. Свежий текст лекции 3 S01 в этой авторской сессии получить не удалось; её прежняя карта сохраняет роль тематического ориентира. Источники и фактически используемые положения перечислены в [конспекте M01](../materials/M01/README.md).
 
+## Дополнение при выпуске M00
+
+21 октября 2026 года фактически прочитаны фрагменты S01, лекция 1, версия `d1924c4e3354eb77d88924032288aaaa1a35ee20`: понятие алгоритма, минимальная программа, переменные и типы, ввод/вывод, объявление функций; из раздела о ссылках — передача без копирования. [Текст лекции](https://gitlab.maxvas.ru/learning-zone/courses/algorithms/-/blob/d1924c4e3354eb77d88924032288aaaa1a35ee20/lecture_1/lecture_1.md) получен через [публичный API](https://gitlab.maxvas.ru/api/v4/projects/learning-zone%2Fcourses%2Falgorithms/repository/files/lecture_1%2Flecture_1.md/raw?ref=d1924c4e3354eb77d88924032288aaaa1a35ee20). Это новая проверка лекции 1; прежние ограничения сессии M01 по лекции 3 сохраняются как история.
+
+Для S07 прочитаны содержательные фрагменты [§1.3 «Алгоритмы и сложность»](https://contest.yandex.ru/tracks/algorithms/introduction/algorithms-and-complexity) о задаче, вводе/выводе, псевдокоде и корректности; [§3.1](https://contest.yandex.ru/tracks/algorithms/solving-practical-programming-problems/automatically-graded-exercises) о разборе условия и тестировании; [§3.2 «Сумма двух чисел»](https://contest.yandex.ru/tracks/algorithms/solving-practical-programming-problems/two-sum-problem), включая C++-код и договорённость о корректном вводе. Пропавшие при извлечении формулы и числовые ограничения не восстанавливались как содержание источника.
+
+Лекция 1 S01 не даёт подробного введения ветвлений и циклов, а §3.2 S07 предполагает основы языка. Недостающая техническая опора для M00 — S15: [expr.assign](https://eel.is/c++draft/expr.assign), [expr.eq](https://eel.is/c++draft/expr.eq), [stmt.if](https://eel.is/c++draft/stmt.if), [conv.bool](https://eel.is/c++draft/conv.bool), [stmt.while](https://eel.is/c++draft/stmt.while), [stmt.ranged](https://eel.is/c++draft/stmt.ranged), [expr.call](https://eel.is/c++draft/expr.call), [stmt.return](https://eel.is/c++draft/stmt.return), [basic.fundamental](https://eel.is/c++draft/basic.fundamental) и декларация `push_back` в [vector.modifiers](https://eel.is/c++draft/vector.modifiers). Прочитаны положения, непосредственно использованные в M00, а не весь стандарт. Объяснение механизма для начинающего и таблицы составлены самостоятельно; средства кода проверены компиляцией в режиме C++17.
+
+Соответствие источников частям текста находится в [M00](../materials/M00/README.md#8-источники-и-дальнейшее-чтение); подробный журнал чтения и проверок — в [записи выпуска](../ai/sessions/2026-10-21-M00-material.md).
+
 ## Короткие прямые входы
 
 - [Двоичный поиск в хендбуке](https://contest.yandex.ru/tracks/algorithms/divide-and-conquer/binary-search).
