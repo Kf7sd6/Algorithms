@@ -17,6 +17,7 @@
 | M02. Стоимость алгоритма и доказательства | [Конспект](learn/topics/M02/README.md) | [Задачи](learn/topics/M02/practice.md) |
 | M03. Стек, очередь и списки | [Конспект](learn/topics/M03/README.md) | [Задачи](learn/topics/M03/practice.md) |
 | M04. Линейный и двоичный поиск | [Конспект](learn/topics/M04/README.md) | [Задачи](learn/topics/M04/practice.md) |
+| M05. Рекурсия и рекуррентные соотношения | [Конспект](learn/topics/M05/README.md) | [Задачи](learn/topics/M05/practice.md) |
 
 ## Где что находится
 
